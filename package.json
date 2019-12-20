@@ -20,9 +20,9 @@
   "author": "Jason Lengstorf <jason@lengstorf.com> (@jlengstorf)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jlengstorf/learn-rollup/issues"
+    "url": "https://github.com/taikongfeizhu/learn-rollup/issues"
   },
-  "homepage": "https://github.com/jlengstorf/learn-rollup#readme",
+  "homepage": "https://github.com/taikongfeizhu/learn-rollup/blob/master/README.md",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-transform-runtime": "^7.7.6",

@@ -2,13 +2,11 @@
 
 This is an example project to accompany a tutorial on using [Rollup](http://rollupjs.org/).
 
-See the video of how this was made at https://code.lengstorf.com/learn-rollup-js/
-
 ## Quickstart
 
 ``` sh
 # Clone the repo
-git clone git@github.com:jlengstorf/learn-rollup.git
+git remote add origin git@github.com:taikongfeizhu/learn-rollup.git
 
 # Move into the repo
 cd learn-rollup/
@@ -17,7 +15,11 @@ cd learn-rollup/
 npm install
 
 # Start the watcher
-npm run watch
+npm run start
+
+# Browser View and enjoy it
+http://127.0.0.1:3001
+
 ```
 
 ## Alternative Configurations
