@@ -4,6 +4,7 @@ import babel from 'rollup-plugin-babel';
 import serve from 'rollup-plugin-serve';
 import json from 'rollup-plugin-json';
 import resolve from 'rollup-plugin-node-resolve';
+import livereload from 'rollup-plugin-livereload';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace';
 import uglify from 'rollup-plugin-uglify-es';
@@ -69,9 +70,12 @@ if (isDebug) {
       verbose: false,
       contentBase: ['dist'],
       historyApiFallback: true,
-      host: '0.0.0.0',
+      host: '127.0.0.1',
       port: 3001
     })
+  );
+  config.plugins.push(
+    livereload()
   );
 } else {
   config.output.push(

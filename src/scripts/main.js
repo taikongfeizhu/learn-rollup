@@ -4,8 +4,8 @@ import $$ from 'jquery';
 import { sayHelloTo } from './modules/mod1';
 import addArray from './modules/mod2';
 
-const result1 = sayHelloTo('Jason');
-const result2 = addArray([1, 2, 3, 4]);
+const result1 = sayHelloTo('Abcat');
+const result2 = addArray([1, 2, 3, 4, 5]);
 
 const printTarget = $$('.debug__output');
 
